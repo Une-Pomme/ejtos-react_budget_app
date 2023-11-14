@@ -13,7 +13,7 @@ const Budget = () => {
             setNewBudget(event.target.value);
             dispatch({
                 type: 'SET_BUDGET',
-                payload: budget
+                payload: event.target.value
             });
             
         }
